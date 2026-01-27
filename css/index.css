@@ -1,0 +1,69 @@
+body {
+    background-color: #e0f7fa;
+    color: #00203f;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif; 
+    line-height: 1.6'
+    margin: 0;
+    padding: 20px;
+}
+
+
+h1 { 
+    color: #0e739e;
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 10px;
+
+}
+
+h2 {
+    color: rgb(64, 146, 94);
+    border-bottom: 15px;
+    padding-bottom: 10px;
+    margin-top: 30px:
+
+}
+
+li {
+    background-color: rgba(157, 116, 116, 0.587);
+    margin-bottom: 15px;
+    padding: 15px;
+    border-left: 5px solid #0056b3;
+    list-style-type:  none;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0,0.1);
+    border-radius: 4px
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #0056b3;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: bold;
+
+}
+
+a: hover {
+    background-color: #004494;
+}
+
+.mountain-img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    border: 4px solid white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0,0.1);
+
+
+
+
+
+}
