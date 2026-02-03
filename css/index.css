@@ -1,3 +1,27 @@
+nav {
+    background-color: #333;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+nav a:hover {
+    color: #FFD700;
+}
+
+
 body {
     background-color: #e0f7fa;
     color: #00203f;
@@ -38,7 +62,7 @@ li {
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: #f3f0ed;
     background-color: #0056b3;
     padding: 10px 20px;
     border-radius: 5px;
@@ -62,8 +86,23 @@ a: hover {
     border: 4px solid white;
     box-shadow: 0 4px 8px rgba(0,0,0,0,0.1);
 
+}
 
+#experience ul {
+    list-style-type: none; 
+    padding: 0;
+}
 
+#experience li {
+    background-color: white;
+    color: black;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 5px solid #007bff; 
+    
 
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
