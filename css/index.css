@@ -106,3 +106,53 @@ a: hover {
     justify-content: space-between;
     align-items: center;
 }
+/* This is lesson 10 */
+/* Tablet View (Screens 768px)*/
+@media screen and (max-width: 768px) {
+    
+    /* 1. Background Color */
+    body {
+        background-color: orange; 
+        font-size: 18px;
+    }
+    
+    
+    nav ul {
+        flex-direction: column; 
+        padding: 0;
+    }
+    
+    nav li {
+        margin-bottom: 10px; 
+    }
+
+    
+    h1, h2 {
+        text-align: center;
+        font-size: 48px; 
+        color: #333;
+    }
+}
+
+/* Mobile View (Screen Max 600px)*/
+@media screen and (max-width: 600px) {
+    
+    
+    body {
+        background-color: #e2ca82; 
+        font-size: 16px;
+    }
+
+    
+    #connect a {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    
+    h1 {
+        font-size: 32px;
+        letter-spacing: 2px;
+    }
+}
