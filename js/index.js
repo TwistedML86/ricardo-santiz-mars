@@ -11,8 +11,7 @@ document.body.appendChild(footer);
 
 const skills = ["HTML", "CSS", "GitHub", "VS Code"];
 const skillsSection = document.getElementById('skills');
-const skillsList = document.createElement('ul');
-skillsSection.appendChild(skillsList);
+const skillsList = skillsSection.querySelector('ul');
 
 for (let i = 0; i < skills.length; i++) {
     let skill = document.createElement('li');
