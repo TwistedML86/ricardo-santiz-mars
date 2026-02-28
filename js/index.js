@@ -58,3 +58,25 @@ messageForm.addEventListener('submit', (event) => {
 
     messageForm.reset();
 });
+
+// LESSON 13: Fetch API
+const githubUsername = "TwistedML86"; 
+const url = `https://api.github.com/users/${githubUsername}/repos`;
+
+fetch(url)
+    .then(response => response.json())
+    .then(repositories => {
+        console.log("My Repositories:", repositories); 
+
+        const projectSection = document.getElementById("projects");
+        const projectList = projectSection.querySelector("ul");
+
+        for (let i = 0; i < repositories.length; i++) {
+            const project = document.createElement("li");
+            project.innerText = repositories[i].name;
+            projectList.appendChild(project);
+        }
+    })
+    .catch(error => {
+        console.error("Error fetching data:", error);
+    });
